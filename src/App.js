@@ -11,6 +11,8 @@ function App() {
         fetchUrl={requests.fetchNextlixOriginals}
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
+      <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
+      <Row title="Comedy" fetchUrl={requests.fetchComedyMovies} />
     </div>
   );
 }
