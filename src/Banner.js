@@ -19,7 +19,17 @@ function Banner() {
   }, []);
 
   return (
-    <header>
+    <header
+      className="banner"
+      style={{
+        backgroundSize: "cover",
+        backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path})`,
+        backgroundPostition: "center center",
+      }}
+    >
+      <div className="banner-content">
+        <h1></h1>
+      </div>
       {/* header */}
       {/* div > 2 buttons */}
       {/* description */}
